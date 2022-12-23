@@ -1,0 +1,155 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #292929;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-sosul
+{
+  position: absolute;
+  margin-top: -201px;
+  width: 380px;
+}
+.container{
+  /* background-color: rgb(238, 68, 17); */
+  background: url(/disign_site/sale-game/bg-vhod.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 24px 50px;
+  border-radius: 42px;
+}
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+a{
+  text-decoration: none;
+  color: rgb(226, 238, 226);
+}
+.btn{
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background: rgb(230, 236, 238);
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #F8700E;
+}
+.btn:focus{
+  outline: 0;
+}
+.btn:active{
+  transform: scale(0.98);
+}
+.text{
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+.form-control{
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+input{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+input:focus,
+input:valid{
+  outline: 0;
+  border-bottom-color: rgb(248, 248, 248);
+}
+label{
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+span{
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+input:focus + label span,
+input:valid + label span{
+  color: rgb(245, 247, 248);
+  transform: translateY(-30px);
+}
+label
+{
+  font-size: 10px;
+}
+
+.snowContainer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	z-index: -1;
+}
+
+#snow {
+	width: 100%;
+	height: 100%;
+	background-image: url("/snow_1.png"), url("/snow_2.png"), url("/snow_3.png");
+	-webkit-animation: snow 20s linear infinite;
+	-moz-animation: snow 20s linear infinite;
+	-ms-animation: snow 20s linear infinite;
+	animation: snow 20s linear infinite;
+}
+
+@keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+@-moz-keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+@-webkit-keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}
+
+@-ms-keyframes snow {
+	0% {
+		background-position: 0px 0px, 0px 0px, 0px 0px;
+	}
+	100% {
+		background-position: 500px 1000px, 400px 400px, 300px 300px;
+	}
+}

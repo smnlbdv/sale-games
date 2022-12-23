@@ -1,0 +1,47 @@
+.section-container88
+
+{
+    display: flex;
+    justify-content: center;
+    padding: 98px 130px;
+    padding-top: 68px;
+    padding-bottom: 112px;
+    padding-left: 130px;
+    padding-right: 130px;
+    background: url(bg-kartiiiii.png); /* Фоновый цвет и фоновый рисунок*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-attachment: fixed;
+}
+
+.block-header-karti
+{
+    height: 150px;
+    
+}
+
+.block-header-karti img
+{
+    object-fit: cover;
+    width: 1781px;
+    margin-left: -141px;
+    
+}
+
+.header-karti
+{
+    font-size: 30px;
+    color: white;
+    transform: translateX(350px);
+    transform: translateY(64px);
+    width: 797px;
+    margin-left: 374px;
+}
+
+.header-karti a
+{
+    
+    margin-right: 26px;
+}
+

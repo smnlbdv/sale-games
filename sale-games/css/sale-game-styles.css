@@ -1,0 +1,225 @@
+
+
+.section-sale-game
+{
+    
+    background: url(/disign_site/sale-game/sale-bg.jpg);
+    width:100%;
+    height:auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 189px;
+    padding-bottom: 112px;
+    padding-left: 130px;
+    padding-right: 130px;
+
+}
+
+
+.section-container
+{
+    width: 1666px;
+    display: flex;
+    justify-content: center;
+    height: 781px;
+    
+    
+}
+ 
+.item{
+  position: absolute;
+  transition: all 300ms ease-in-out;
+  z-index: -1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.item.active{
+  opacity: 1;
+  z-index: 99;
+  
+}
+.item.prev{
+  z-index: 2;
+  opacity: 0;
+  
+}
+.item.next{
+  z-index: 2;
+  opacity: 0;
+  
+}
+
+.sale-row
+  {
+    margin-left: auto;
+  }
+
+  .button-container{
+    position: absolute;
+    width: 1790px;
+    z-index: 100;
+    margin-top: 360px;
+  }
+  .button{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    cursor: pointer;
+    position: relative;
+    opacity: 0.1;
+    transition: all 500ms ease-in-out;
+  }
+  .button:hover{
+    opacity: 1;
+  }
+  .button:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 71px;
+    height: 71px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10%;
+    z-index: -99;
+  }
+  .button:nth-child(1){
+    float: left;
+  }
+  .button:nth-child(2){
+    float: right;
+  }
+
+.image3
+{
+  margin-top: 14px;
+}
+
+
+
+  .img-css{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .one-sale
+  {
+    width: 976px;
+    height: 790px;
+    margin-right: 5px;
+    
+
+  }
+
+  
+  .two-sale
+  {
+
+    width: 680px;
+    height: 791px ;
+  }
+
+
+  .two-sale img
+  {
+    margin-left: -8px;
+    
+    
+  }
+  
+  .image-three-top
+  {
+    margin-top: -3px;
+  }
+  
+  .pokup{
+    margin-left:86% ;
+    margin-top:73% ;
+    background-size: cover;
+    height: 30px;
+    width: 60px;
+  
+  }
+  
+  .mimikc{
+    background-image: url("/Group109.png");
+    background-size: 100% 100%;
+    height: 385px;
+    width: 680px;
+    border-radius: 5%;
+  }
+
+  .mimikc img
+  {
+    background-size: cover;
+  }
+  
+  .spad{
+    margin-left:80% ;
+    margin-top:43% ;
+    background-size: cover;
+    height: 30px;
+    width: 60px;
+  }
+  
+  .bat{
+    margin-left:80% ;
+    margin-top:43% ;
+    background-size: cover;
+    height: 30px;
+    width: 60px;
+  
+  }
+  
+  .payk{
+    background-size: cover;
+    height: 385px;
+    width: 680px;
+    border-radius: 5%;
+    margin-top: 5.5px;
+  }
+
+
+  @media  (max-width:1724px) 
+{
+
+    .two-sale
+    {
+    display: none;
+    }
+    .button-container
+    {
+      width: 1163px;
+    }
+    
+
+  }
+
+  @media  (max-width:2004px) 
+{
+
+    .div_1_1 img 
+    {
+      display: none;
+    }
+    .div_2_2 img 
+    {
+      display: none;
+    }
+    
+
+  }
+
+@media  (max-width:1662px) 
+  {
+    .block
+    {
+      height: 1320px;
+    }
+  }

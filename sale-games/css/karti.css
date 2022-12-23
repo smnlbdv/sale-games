@@ -1,0 +1,165 @@
+.section-three
+{
+    background: url(/disign_site/sale-game/kartochkiBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding: 0px 130px;
+    z-index: 1;
+    display: flex;
+    
+}
+
+
+.image-2
+{
+    margin: 0 auto;
+}
+
+
+.block-image-karti
+{
+    z-index: 2;
+    position: absolute;
+    align-items: center;
+    margin-top: 375px;
+}
+
+.section-container3
+{
+    width: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 3;
+    height: 1080px;
+}
+
+.image-kartes
+{
+    position: absolute;
+    z-index: 5;
+    margin-top: 150px;
+    margin-left: 4px;
+    
+    transition:  0.3s ease-in-out;
+}
+.image-kartes
+{
+    align-content: center;
+}
+
+.image-kartes img
+{
+    padding-top: 25px;
+    height: 766px;
+    width: 717px;
+}
+
+.a_link
+{
+    margin-left: 264px;
+}
+
+.a_link a
+{
+  color:whitesmoke;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.a_link a:hover {
+    text-decoration: 2px underline;
+    text-decoration-color: #ff5e00;
+    
+}
+
+
+.image-kartes:hover
+{
+    margin-top: 135px;
+}
+
+.block-one-kartochki
+{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-two-kartochki
+{
+    width:1920px;
+
+    justify-content: space-between;
+    margin-top: 170px;
+    height: 1080px;
+   
+}
+
+.block-two-kartochki:first-child
+{
+    
+    margin-top: 0px;
+    
+   
+}
+
+
+.div_1_1
+{
+    
+    width: 920px;
+    
+}
+
+
+.div_1_1 img:nth-child(2)
+{
+    
+    padding-top: 129px;
+    
+}
+
+.div_2_2 img:nth-child(2)
+{
+    
+    padding-top: 166px;
+    padding-left: 81px;
+    
+}
+
+.div_2_2 img:nth-child(1)
+{
+    
+    
+    padding-left: 40px;
+    
+}
+
+
+
+.div_2_2
+{
+    
+    width: 772px;
+    
+    
+}
+
+.div_2_2 img
+{
+    
+    margin-left: 0 auto;
+    
+}
+
+.div-block-image-2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1920px;
+    flex-wrap: wrap;
+    margin-top: 105px;
+}
+

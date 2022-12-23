@@ -1,0 +1,88 @@
+.block
+{
+    
+    background: url(/disign_site/garant/back-ground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 170px 130px;
+    
+}
+
+.contenier
+{
+    max-width: 1660px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+.about_one
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    flex-wrap: wrap; 
+}
+
+
+
+.about_two
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px; 
+    flex-wrap: wrap;  
+}
+
+.about_image
+{
+    
+    height: 100px;
+}
+
+.about_item
+{
+    width:356px;
+    position: relative;
+    top: 0px;
+    height: 286px;
+    
+}
+
+
+.text
+{
+    margin-top: 10px;
+}
+.header-text
+{
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+.zagol
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.body-text
+{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.about-2
+{
+    margin-top: 25px;
+    width: 1920px;
+    display: flex;
+}

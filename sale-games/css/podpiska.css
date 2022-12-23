@@ -1,0 +1,114 @@
+.section4
+{
+    background: url(/disign_site/sale-game/pochta-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.container4
+{
+    width: 1660px;
+    height: 512px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.search-pochta
+{
+
+
+    margin-right: auto;
+    width: 922px;
+    height: 65px;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.podpis
+{
+    margin-right: 30px;
+    
+    margin-top: -90px;
+}
+
+.text-podpis
+{
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+
+.input-podpis
+{
+    margin-top: 59px;
+    
+}
+
+input::placeholder
+{
+    font-size: 20px;
+    padding-left: 0px;
+    padding-top: 5px
+}
+
+
+a.buttt {
+    text-align:center;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3px 6px;
+    font-size: 20px;
+    background: #ffffff;
+    display:flex;
+    width:208px;
+    border-radius: 3px;
+    color: #f77801;
+    box-shadow: 0 0 0 1px rgba(240, 102, 10, 0.973), 0 1px 2px rgba(255, 103, 15, 0.911), inset 0 1px 2px rgba(247, 118, 14, 0.897);
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-right: 0px;
+}
+
+.buttt {
+    text-align:center;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3px 6px;
+    font-size: 20px;
+    background: #ffffff;
+    display:flex;
+    width:208px;
+    border-radius: 3px;
+    color: #f77801;
+    box-shadow: 0 0 0 1px rgba(240, 102, 10, 0.973), 0 1px 2px rgba(255, 103, 15, 0.911), inset 0 1px 2px rgba(247, 118, 14, 0.897);
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: auto; */
+    border-radius: 10px;
+    
+   
+}
+
+a.butt:hover, a.butt.hover {
+    background: #fff;
+}
+a.butt:active, a.butt.active {
+    background: #f3f5f7;
+    /* background-image: linear-gradient(rgba(243, 78, 13, 0.1), rgba(0,0,0,0));
+    box-shadow: inset 0 0 2px rgba(235, 81, 10, 0.2), inset 0 2px 5px rgba(238, 73, 8, 0.2), 0 1px rgba(240, 102, 11, 0.2); */
+}
+

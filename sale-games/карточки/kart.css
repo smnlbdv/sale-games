@@ -1,0 +1,410 @@
+header {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background: #292929;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    transition: align-items .2s;
+}
+img.ik{
+    margin-left:12%;
+    width: 140px;
+    height: 50px;
+}
+.menu{
+    float: right;
+    margin-right: 50px;
+
+
+}
+
+
+
+ul {
+    margin-top: 5px;
+
+    color: rgba(249, 135, 2, 0);
+    display: flex;
+    margin: 0 0 0 0;
+    padding: 0;
+    transition: margin .2s;
+
+}
+
+li:not(:last-child) {
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+li a {
+
+
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    background-color: #292929;
+    padding: 8px 10px;
+
+
+}
+.submenu{
+
+    display: none;
+    text-decoration: none;
+    background-color: #292929;
+    padding: 19px 10px;
+    white-space: nowrap;
+
+}
+
+li{
+    position: relative;
+}
+
+.toggle-menu {
+    display: none;
+    font-size: 2rem;
+    color: #e00909;
+    margin: 10px 10px 0 0;
+    transition: margin .2s;
+}
+
+main {
+    display: block;
+    padding: 0 20px;
+}
+img.rick{
+    margin-top: 0.5%;
+    margin-right: 16%;
+    width: 40px;
+    right: 40px;
+
+    float: right;
+
+}
+form {
+    float: right;
+    margin-top: 25px;
+    margin-right: 260px;
+
+}
+/*------------------------шапка*/
+* {box-sizing: border-box;}
+form {
+
+    position: relative;
+    width: 300px;
+    margin-right: 5%;
+    margin-top: 3px;
+    height: 42px;
+
+}
+input {
+    height: 42px;
+    width: 0;
+    padding: 0 42px 0 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    color: white;
+}
+input {
+    width: 300px;
+    z-index: 1;
+    border-bottom: 2px solid #F9F0DA;
+}
+button {
+    background: rgba(3, 3, 3, 0);
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 5%;
+    cursor: pointer;
+
+}
+.lkl:before {
+    content: "Найти";
+    font-family:"Comic Sans MS";
+    font-size: 16px;
+    color: #F9F0DA;
+}
+.submenu{
+    flex-direction: column;
+    position: absolute;
+
+
+}
+li:hover .submenu{
+    display: flex;
+}
+.submen{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    float: right;
+}
+li:hover .submen{
+    display: flex;
+}
+/*---------------------------------------------------------выподающее меню*/
+
+
+.podval{
+
+
+}
+footer {
+
+    padding: 20px 10px;
+    background: #292929;
+    color: white;
+}
+.pod1{
+
+    text-align: center;
+    font-size: 16px;
+}
+.tg{
+    margin-left: 670px;
+}
+.inst{
+    margin-left: 15px;
+
+}
+.vk{
+    margin-left: 12px;
+}
+.wrapper {
+
+
+    height: 200px;
+    background: linear-gradient(-90deg, rgba(227, 81, 5, 0.84), rgba(227, 81, 5, 0.69), rgba(227, 81, 5, 0.51), rgba(227, 81, 5, 0.25), rgba(128, 128, 128, 0.55));
+
+
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    height: 8%;
+}
+
+.fon{
+
+    display: flex;
+    background: url("Group287.png");
+    height: 1300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img1{
+    background-image: url("Group288.svg");
+    width: 342px;
+    height: 95px;
+    display: flex;
+}
+
+.a1{
+    text-decoration: #F98702;
+    color: #FFFFFF;
+    font-size: 26px;
+
+
+
+   padding: 1.25em;
+}
+.nad{
+
+padding-top: 2%;
+
+}
+.balans{
+    color: #FFFFFF;
+    font-size: 38px;
+    margin-top: 1.5%;
+    padding-left: 15%;
+}
+.label_balans{
+    color: #FFFFFF;
+    font-size: 38px;
+    margin-top: 1.5%;
+
+}
+.balans1{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-top: 2.3%;
+
+}
+
+.kkw{
+    padding-top: 5%;
+    padding-left: 55%;
+    font-weight: bold;
+    font-size: 33px;
+   display: flex;
+    color: rgba(255, 255, 255, 0.35);
+}
+.reclama{
+    margin-top: 6%;
+    margin-left: -47%;
+    background-image: url("Group317.png");
+    width: 243px;
+    height: 594px;
+}
+
+
+.container1{
+    margin-top: -80%;
+    cursor: pointer;
+    height: 272px;
+    perspective: 1200px;
+    position: relative;
+    width: 199px;
+}
+.container2{
+    margin-top: -43.5%;
+    margin-left:40% ;
+    cursor: pointer;
+    height: 272px;
+    perspective: 1200px;
+
+    width: 199px;
+}
+.container3{
+    margin-top: -43.5%;
+    margin-left:80% ;
+    cursor: pointer;
+    height: 272px;
+    perspective: 1200px;
+
+    width: 199px;
+}
+.card{
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 2s ease-in-out;
+    width: 100%;
+}
+.card:active{
+    transform: rotateY(180deg);
+
+
+}
+
+.card .icon{
+    backface-visibility: hidden;
+
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+}
+.card .back{
+    background: #eaeaed;
+    color: #0087cc;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+    font-size: 1.2em;
+    margin: 0 15px
+}
+
+.kolvo_play{
+    color: white;
+    font-size: 33px;
+   padding-top: 1%;
+    margin-left: 15%;
+
+}
+.wrapper111 {
+
+
+
+    background: linear-gradient(-90deg, rgba(227, 81, 5, 0.84), rgba(227, 81, 5, 0.69), rgba(227, 81, 5, 0.51), rgba(227, 81, 5, 0.25), rgba(128, 128, 128, 0.55));
+
+
+    margin-left:-54.5%;
+    margin-top: 95%;
+    width: 243.5%;
+    height: 108%;
+}
+
+.text-field__input1 {
+    margin-top: 81.2%;
+margin-right: 58%;
+
+
+    display: flex;
+    width: 10%;
+    height: calc(2.6rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fefeff;
+    background-color: rgba(255, 255, 255, 0);
+    background-clip: padding-box;
+    border: 2px solid #bdbdbd;
+    border-radius: 0.5rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+
+
+
+
+
+.linea-1{
+    margin-left: 560px;
+}
+::-webkit-scrollbar-button {
+
+    background-repeat:no-repeat;
+    width:5px;
+    height:0px
+}
+
+::-webkit-scrollbar-track {
+    background-color: #64686c
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #292929;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #081010;
+}
+
+::-webkit-resizer{
+
+    background-repeat:no-repeat;
+    width:4px;
+    height:0px
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+}
